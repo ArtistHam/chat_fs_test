@@ -1,3 +1,6 @@
-.test {
-  color: red;
+.wrapper {
+  background: #93b4f5;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
 }

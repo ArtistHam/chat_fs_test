@@ -1,0 +1,17 @@
+.wrapper {
+  width: 60%;
+  background-color: #cbd1f4;
+  border-radius: 30px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.inputWrapper {
+  display: flex;
+}
+
+.textarea {
+  resize: none;
+  width: 100%;
+}
