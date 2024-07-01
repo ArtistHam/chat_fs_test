@@ -1,17 +1,82 @@
 .wrapper {
   width: 60%;
   background-color: #cbd1f4;
-  border-radius: 30px;
-  padding: 30px;
+  border-radius: 0px 30px 30px 0px;
+  position: relative;
+}
+
+.sidebar {
+  position: absolute;
   display: flex;
+  flex-direction: column;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  width: 200px;
+  flex-shrink: 1;
+  background-color: wheat;
+}
+
+.chat {
+  margin-left: 200px;
+  display: flex;
+  width: calc(100% - 200px);
+  padding: 20px;
+  height: 100vh;
   flex-direction: column-reverse;
+}
+
+.header {
+  width: calc(100% - 150px);
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  left: 150px;
+  text-align: center;
+  height: 20px;
 }
 
 .inputWrapper {
   display: flex;
 }
 
+.messages {
+  margin-top: 40px;
+  overflow-y: scroll;
+}
+
 .textarea {
   resize: none;
   width: 100%;
+}
+
+.chatButton {
+  background-color: #ffffff;
+  width: 100%;
+  margin: 5px 0px;
+  padding: 15px;
+  outline: none;
+  border: none;
+}
+
+.chatButton:hover {
+  background-color: #ffffff8b;
+}
+
+.activeButton {
+  background-color: #6cc4ff;
+}
+
+.message {
+  background-color: #ffffff;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 10px 0px;
+  padding: 10px;
+  width: 75%;
+}
+
+.my {
+  margin-left: 25%;
 }

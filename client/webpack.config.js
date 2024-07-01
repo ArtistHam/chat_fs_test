@@ -40,7 +40,7 @@ module.exports = {
     }),
   ],
   devServer: {
-    port: 3000,
+    port: 3014,
     static: {
       directory: path.join(__dirname, "dist"),
     },
